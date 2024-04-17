@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirect all requests to http://localhost:2798/{R:1}
+RewriteRule ^(.*)$ http://localhost:3000/$1 [P,L]

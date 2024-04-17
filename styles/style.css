@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.warning {
+  @media screen and (max-width: 767px) {
+     background-image: url(/images/warningsmallbg.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 1023px) and (max-width: 1367px) {
+     background-image: url(/images/warning-bg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     bottom: 28%;
+     background-size: auto;
+
+  }
+
+  @media screen and (min-width: 1367px) {
+     background-image: url(/images/warning-bg.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+
+  }
+}
+

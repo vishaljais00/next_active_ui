@@ -1,0 +1,29 @@
+.owl-item > div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
+    opacity: .3;
+  }
+  .owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+    opacity: 1;
+  }
+  .owl-item.center .active {
+    border: 8px solid blue;
+  }
+  .owl-item:not(.center) > div:hover {
+    opacity: .75;
+  }
+  .btns{
+    display: table;
+    margin: 30px auto;
+  }
+  .customNextBtn, .customPreviousBtn{
+        float: right;
+      background: #b2b2b2;
+      color: #fff;
+      padding: 10px;
+      margin-left: 5px;
+      cursor: pointer;
+  }
